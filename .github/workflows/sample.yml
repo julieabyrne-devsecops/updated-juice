@@ -23,3 +23,21 @@ jobs:
       
       - uses: actions/checkout@v4
       - run: echo "this is a sample step"
+   
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cycodelabs/cimon-action@v0
+        with:
+          client-id: ${{ secrets.CIMON_CLIENT_ID }}
+          secret: ${{ secrets.CIMON_SECRET }}
+      
+      - name: Connect to Amazon Forbidden
+        run: curl amazon.com
+      - name: Connect to GitLab 
+        run: curl gitlab.com
+      - name: Connect to Cycode
+        run: curl cycode.com
+
+
+    
