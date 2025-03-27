@@ -36,8 +36,8 @@ jobs:
             gitlab.com
             cycode.com
             storage.googleapis.com
-          #allowed-ips: >
-          #  34.121.34.97
+          allowed-ips: >
+            34.121.34.97
       
       - name: Connect to Amazon Forbidden
         run: curl amazon.com
