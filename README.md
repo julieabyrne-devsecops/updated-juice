@@ -62,6 +62,8 @@ For a detailed introduction, full list of features and architecture overview ple
 
 ### From Sources
 
+something here...
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/juice-shop/juice-shop.svg)
 
 1. Install [node.js](#nodejs-version-compatibility)
