@@ -52,12 +52,14 @@ interface VerdictRequestBody {
   selectedFix: number
 }
 
+
+
 export const serveCodeFixes = () => (req: Request<FixesRequestParams, Record<string, unknown>, Record<string, unknown>>, res: Response, next: NextFunction) => {
   const key = req.params.key
   const fixData = readFixes(key)
   if (fixData.fixes.length === 0) {
     res.status(404).json({
-      error: 'No fixes found for the snippet!'
+      error: 'No fixes for the snippet!'
     })
     return
   }
