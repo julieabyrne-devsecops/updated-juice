@@ -184,6 +184,9 @@ and is available **for free** in PDF, Kindle and ePub format on LeanPub. You can
 [<img alt="Pwning OWASP Juice Shop cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/cover.jpg" width="200"/>](https://leanpub.com/juice-shop)
 [<img alt="Pwning OWASP Juice Shop back cover" src="https://raw.githubusercontent.com/juice-shop/pwning-juice-shop/master/docs/modules/ROOT/assets/images/introduction/back.jpg" width="200"/>](https://leanpub.com/juice-shop)
 
+
+
+more info
 ## Contributing
 
 [![GitHub contributors](https://img.shields.io/github/contributors/bkimminich/juice-shop.svg)](https://github.com/juice-shop/juice-shop/graphs/contributors)
@@ -244,3 +247,10 @@ OWASP Juice Shop and any contributions are Copyright © by Bjoern Kimminich & th
 2014-2025.
 
 ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_400px.png)
+
+
+:warning: DO NOT PUT PASSWORDS IN TEXT FILES, e.g.:
+
+Login:
+username: admin
+password: Re@dme!965Ju1ce426
