@@ -31,6 +31,7 @@ jobs:
         with:
           client-id: ${{ secrets.CIMON_CLIENT_ID }}
           secret: ${{ secrets.CIMON_SECRET }}
+          prevent: true
       
       - name: Connect to Amazon Forbidden
         run: curl amazon.com
