@@ -16,7 +16,7 @@ jobs:
       - name: Automatic Rebase
         uses: cirrus-actions/rebase@b87d48154a87a85666003575337e27b8cd65f691 #v1.8
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
   # https://github.community/t5/GitHub-Actions/Workflow-is-failing-if-no-job-can-be-ran-due-to-condition/m-p/38186#M3250
   always_job:
     name: Always run job
