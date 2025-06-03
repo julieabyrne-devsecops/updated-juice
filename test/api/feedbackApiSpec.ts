@@ -116,7 +116,7 @@ describe('/api/Feedbacks', () => {
       headers: jsonHeader,
       body: {
         email: 'bjoern.kimminich@gmail.com',
-        password: 'bW9jLmxpYW1nQGhjaW5pbW1pay5ucmVvamI='
+        password: $PSSWRD
       }
     })
       .expect('status', 200)
