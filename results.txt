@@ -1,0 +1,1393 @@
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/Services/user.service.ts 
+Secret SHA: be146b37a00983092b5487f2371e8bd6ddb89e875c8b16e1316c732921455ebb
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+51 |   }
+52 | 
+53 |   changePassword (passwords: Pa*****ds) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/two-factor-auth/two-factor-auth.component.html 
+Secret SHA: ed5f13f5ae6a975d2b47bd32a88235639a02742d36050a663adfe6f252ae2de6
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+84 |             type="text"
+85 |             matInput
+86 |             [attr.data-test-totp-secret]="to******et"
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/securityAnswerApiSpec.ts 
+Secret SHA: 5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+42 |     return frisby.post(`${API_URL}/Users`, {
+43 |       email: 'new.user@te.st',
+44 |       password: '1***5'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 76512f8fef4e824c173dc5861ceb915f104d8903780848aa54d5058bd4242708
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+268 | -
+269 |   email: testing
+270 |   password: 'Iam***********ing'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 715dc8493c36579a5b116995100f635e3572fdf8703e708ef1a08d943b36774e
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+257 |   email: ethereum
+258 |   username: evmrox
+259 |   password: 'p*****e'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: a0d471ab49384519de04910d4e8b70e60ac67d4cf6a32bdc74087a5caf23247e
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+241 |   email: emma
+242 |   username: E=ma²
+243 |   password: 'y&x5Z*****************************aDzFU'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: e0ef6cc9c33b28c903d7a56fff82230b2313424ba40a01e1c3157154677ef2f2
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+235 |   email: john
+236 |   username: j0hNny
+237 |   password: 'y&x5Z*****************************aDzFU'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 89c6bbcf5d6ca1632bb983629f08159628c871a824b38b998a5e6725fe9b82f0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+148 |   username: wurstbrot
+149 |   password: 'EinBelegtesBrotMitSchinkenSCHINKEN!'
+150 |   totpSecret: IFTX************************C3KH
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: d366bcf60a99fac26e84ce403e3c3f339fab6040ca3cd1ee375b8c54777110b0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+147 |   email: wurstbrot
+148 |   username: wurstbrot
+149 |   password: 'EinBe*************************NKEN!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 5fd9d70e19305242e31c1e31165562caf7d35a1fa32f20b81ff0229cfde2e636
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+138 | -
+139 |   email: J12934
+140 |   password: '0Y8r**************-*******&6lB'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: a0dac430683585b7fdd44f0284c5a660aa680e4baf5431a2779b494c71f8da28
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+121 | -
+122 |   email: morty
+123 |   password: 'focus************************ience'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 5ed0ba485801d2bd7fcd7746e92597d318d4237e3b539a3df03155786deb89a3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+113 | -
+114 |   email: support
+115 |   password: 'J6aV**********************RF$P'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: bb436c83e29553e71fc1cb100259f13be34171b84dad187973dc755489da05c5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+105 | -
+106 |   email: ciso
+107 |   password: 'mDLx?94T********************************************x7c!YbJb'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+86 |   email: bjoern.kimminich@gmail.com
+87 |   username: bkimminich
+88 |   password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/users.yml 
+Secret SHA: a76b0383af2b8beacde14b25f66e344417de8c630eb34ed26ff32c13e6c8ddd3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+61 | -
+62 |   email: bender
+63 |   password: 'OhG******************or!'
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/forgedJwt.spec.ts 
+Secret SHA: 997ffd20cd4b5baae5e3895aebd7c9aa7f9603e1d1a834affa9a4782bd21bb98
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+20 |             localStorage.setItem(
+21 |               'token',
+22 |               'eyJ0eXAiOiJKV1QiLCJh***********************************************************************************************************************QbLfteJaQUG7Z0PH8Xc8'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/loginApiSpec.ts 
+Secret SHA: d366bcf60a99fac26e84ce403e3c3f339fab6040ca3cd1ee375b8c54777110b0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+122 |       body: {
+123 |         email: 'wurstbrot@' + config.get<string>('application.domain'),
+124 |         password: 'EinBe*************************NKEN!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/loginApiSpec.ts 
+Secret SHA: 5ed0ba485801d2bd7fcd7746e92597d318d4237e3b539a3df03155786deb89a3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+77 |       body: {
+78 |         email: 'support@' + config.get<string>('application.domain'),
+79 |         password: 'J6aV**********************RF$P'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/loginApiSpec.ts 
+Secret SHA: 35e4300c1d9e8fa088eab9db2020c27c189523bfe39aa7106006a958f9fe0939
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+44 |     return frisby.post(REST_URL + '/user/login', {
+45 |       email: 'otto@mei.er',
+46 |       password: 'o*****o'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/loginApiSpec.ts 
+Secret SHA: da73db603688462b21104d3ad52942afba0e9e6f6e4bf855c4da66b8c331f9b8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+28 |           body: {
+29 |             email: 'kalli@kasper.le',
+30 |             password: 'ka*****ii'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/loginApiSpec.ts 
+Secret SHA: da73db603688462b21104d3ad52942afba0e9e6f6e4bf855c4da66b8c331f9b8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+19 |       body: {
+20 |         email: 'kalli@kasper.le',
+21 |         password: 'ka*****ii'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/i18n/th_TH.json 
+Secret SHA: 0ab6f1e0bf216a0db52a4a5a247f95cba6f51496de7a24dfd01f3985dfcf6085
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+272 | 	"We are out of stock! Sorry for the inconvenience.": "We are out of stock! Sorry for the inconvenience.",
+273 | 	"Wrong answer to CAPTCHA. Please try again.": "Wrong answer to CAPTCHA. Please try again.",
+274 | 	"Invalid email or password.": "อีเม*******************ต้อง",
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/currentUserSpec.ts 
+Secret SHA: f187709cd6ac7898e114e4722e1c66c56fb17ad555842f4c957f5de2f9ac06ff
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+31 |     req.cookies.token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJkYXRhIjp7ImlkIjoxLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwibGFzdExvZ2luSXAiOiIwLjAuMC4wIiwicHJvZmlsZUltYWdlIjoiZGVmYXVsdC5zdmcifSwiaWF0IjoxNTgyMjIyMzY0fQ.CHiFQieZudYlrd1o8Ih-Izv7XY_WZupt8Our-CP9HqsczyEKqrWC7wWguOgVuSGDN_S3mP4FyuEFN8l60aAhVsUbqzFetvJkFwe5nKVhc9dHuen6cujQLMcTlHLKassOSDP41Q-MkKWcUOQu0xUkTMfEq2hPMHpMosDb4benzH0'
+32 |     req.query.callback = undefined
+33 |     require('../../lib/insecurity').authenticatedUsers.put('eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJkYXRhI*********************************************************************************************************************************************************************-****************-****************************************************************************************ssOSDP41Q-MkKWcUOQu0xUkTMfEq2hPMHpMosDb4benzH0', { data: { id: 1, email: 'admin@juice-sh.op', lastLoginIp: '0.0.0.0', profileImage: '/assets/public/images/uploads/default.svg' } })
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/currentUserSpec.ts 
+Secret SHA: f187709cd6ac7898e114e4722e1c66c56fb17ad555842f4c957f5de2f9ac06ff
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+29 | 
+30 |   it('should return ID and email of user belonging to cookie from the request', () => {
+31 |     req.cookies.token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJkYXRhI*********************************************************************************************************************************************************************-****************-****************************************************************************************ssOSDP41Q-MkKWcUOQu0xUkTMfEq2hPMHpMosDb4benzH0'
+
+⛔  Found issue of type: hex-entropy (rule ID: ab4fb491-5bd9-464a-af8b-63e61a98f3e3) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/insecuritySpec.ts 
+Secret SHA: a9f07dc174de3c7564a93874f5debd75399735b401e527401fa518faba8b6f22
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+221 |     it('returns SHA-256 HMAC with "pa4qacea4VK9t9nGv7yZtwmj" as salt any input string', () => {
+222 |       expect(security.hmac('admin123')).to.equal('6be13e2feeada221f29134db71c0ab0be0e27eccfc0fb436ba4096ba73aafb20')
+223 |       expect(security.hmac('password')).to.equal('da28fc43************************************************bf6531ed')
+
+⛔  Found issue of type: hex-entropy (rule ID: ab4fb491-5bd9-464a-af8b-63e61a98f3e3) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/insecuritySpec.ts 
+Secret SHA: 3f2cd8e57b096fe7e4a78a5627e34ca3f885ad65a56e61c287cf4211bbc5949f
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+209 |     it('returns MD5 hash for any input string', () => {
+210 |       expect(security.hash('admin123')).to.equal('0192023a7bbd73250516f069df18b500')
+211 |       expect(security.hash('password')).to.equal('5f4d************************cf99')
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/authenticatedUsersSpec.ts 
+Secret SHA: 544e62cee8033709e389e5b2755343d0d0fa8c4850215cfb6331717e80d1aea3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+19 |       .expect('status', 200)
+20 |       .expect('json', 'data.?', {
+21 |         password: '********************************'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/web3Spec.ts 
+Secret SHA: 69623bda028d67ac20b693094865c91c4c819d998983feda53b468b3ab9b0c60
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+58 |   it('POST private key in request body gets accepted', () => {
+59 |     return frisby.post(REST_URL + '/submitKey', {
+60 |       privateKey: '0x5bcc3e9************************************************6bc948e3e'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/web3Spec.ts 
+Secret SHA: 8566bd002b5b5a1dcbf6729e88bc86f1433fe0b7d4a9ab2b3b1dee705e371abd
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+46 |   it('POST wallet address in request body gets rejected as such', () => {
+47 |     return frisby.post(REST_URL + '/submitKey', {
+48 |       privateKey: '0x8343******************************15Ce05'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/web3Spec.ts 
+Secret SHA: 2a2086fe9f4366fd797107dde73d7ca7c25768322b6fc5d77390d7e8eeeb2891
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+34 |   it('POST public wallet key in request body gets rejected as such', () => {
+35 |     return frisby.post(REST_URL + '/submitKey', {
+36 |       privateKey: '0x02c7a2a**************************************************83983f506'
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/last-login-ip/last-login-ip.component.spec.ts 
+Secret SHA: 5bfd585f8578ddefa948d93d6a099ac341541132c803befc057c136fa4643576
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+65 | 
+66 |   xit('should not set Last-Login IP if none is present in JWT', () => { // FIXME Expected state seems to leak over from previous test case occasionally
+67 |     localStorage.setItem('token', 'eyJhbGciOiJI************************************************************************GAxTGfd9enLw')
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/last-login-ip/last-login-ip.component.spec.ts 
+Secret SHA: cbe21af7e69f7d1e9a523e7c6e0693367d4f270d0c19915b41446a35693d2c55
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+59 | 
+60 |   xit('should set Last-Login IP from JWT as trusted HTML', () => { // FIXME Expected state seems to leak over from previous test case occasionally
+61 |     localStorage.setItem('token', 'eyJhbGciOiJIUzI1***********************************************************************************************CddKvDFYDBfUt3bg')
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/codefixes/weakPasswordChallenge_3.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+2 |       password: {
+3 |         type: DataTypes.STRING,
+4 |         set (clearTextPassword: s****g) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/totpSetup.spec.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+31 |           cy.get('#currentPasswordSetup').type('K1f.....................')
+32 | 
+33 |           cy.task<string>('GenerateAuthenticator', $val).then((secret: s****g) => {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/totpSetup.spec.ts 
+Secret SHA: 89c6bbcf5d6ca1632bb983629f08159628c871a824b38b998a5e6725fe9b82f0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+5 |         email: 'wurstbrot',
+6 |         password: 'EinBelegtesBrotMitSchinkenSCHINKEN!',
+7 |         totpSecret: 'IFTX************************C3KH'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/totpSetup.spec.ts 
+Secret SHA: d366bcf60a99fac26e84ce403e3c3f339fab6040ca3cd1ee375b8c54777110b0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+4 |       cy.login({
+5 |         email: 'wurstbrot',
+6 |         password: 'EinBe*************************NKEN!',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/register/register.component.ts 
+Secret SHA: 071425ca6bf80481cc97d124a6a4d6440baa15f7a872947baaa54e9748e042b3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+100 | }
+101 | 
+102 | function matchValidator (passwordControl: Ab***********ol) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/feedbackApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+150 |       body: {
+151 |         email: 'bjoern.kimminich@gmail.com',
+152 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/feedbackApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+117 |       body: {
+118 |         email: 'bjoern.kimminich@gmail.com',
+119 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/basketApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+99 |       body: {
+100 |         email: 'bjoern.kimminich@gmail.com',
+101 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/register.spec.ts 
+Secret SHA: 59c788342ed82f612454529289ded118440a242e6127dc48eddfb3288a765b96
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+82 |           body: JSON.stringify({
+83 |             email: 'uncle@bob.com',
+84 |             password: 'The***********One'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/register.spec.ts 
+Secret SHA: c0fa141c657cce66ec88a9a6d56dab84feae35c2301dfed4b240528df8b8d6e1
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+59 |             email: 'testing@test.com',
+60 |             password: 'pwned',
+61 |             passwordRepeat: 'p***d',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/register.spec.ts 
+Secret SHA: c0fa141c657cce66ec88a9a6d56dab84feae35c2301dfed4b240528df8b8d6e1
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+58 |           body: JSON.stringify({
+59 |             email: 'testing@test.com',
+60 |             password: 'p***d',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/register.spec.ts 
+Secret SHA: 790c9efd7b0dee4b2af620b90ae9f2abfd55ed5160dc20bb7efbe8def5192eb9
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+27 |                   email: '<iframe src="javascript:alert(`xss`)">',
+28 |                   password: 'XSSed',
+29 |                   passwordRepeat: 'X***d',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/register.spec.ts 
+Secret SHA: 790c9efd7b0dee4b2af620b90ae9f2abfd55ed5160dc20bb7efbe8def5192eb9
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+26 |                 body: JSON.stringify({
+27 |                   email: '<iframe src="javascript:alert(`xss`)">',
+28 |                   password: 'X***d',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/changePassword.spec.ts 
+Secret SHA: a76b0383af2b8beacde14b25f66e344417de8c630eb34ed26ff32c13e6c8ddd3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+23 |       cy.login({
+24 |         email: 'bender',
+25 |         password: 'OhG******************or!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/cypress/e2e/changePassword.spec.ts 
+Secret SHA: a0dac430683585b7fdd44f0284c5a660aa680e4baf5431a2779b494c71f8da28
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+4 |       cy.login({
+5 |         email: 'morty',
+6 |         password: 'focus************************ience'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/login/login.component.ts 
+Secret SHA: 76512f8fef4e824c173dc5861ceb915f104d8903780848aa54d5058bd4242708
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+52 |   public redirectUri: string = ''
+53 |   public testingUsername = 'testing@juice-sh.op'
+54 |   public testingPassword = 'Iam***********ing'
+
+⛔  Found issue of type: google-oauth-id (rule ID: 75eb6bb1-f4fc-431b-9e02-c48bf212aa35) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/login/login.component.ts 
+Secret SHA: d11f59fba4e41d21504c385ba066c8f707fe6e51ad9cad4731b57298f1cdfecc
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+48 |   public rememberMe: UntypedFormControl = new UntypedFormControl(false)
+49 |   public error: any
+50 |   public clientId = '1005568560***-*************************************************ontent.com'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/forgot-password/forgot-password.component.html 
+Secret SHA: cb168275d7ffd980970bba2f0dc9ecafa6a9244d983d0c2e9a49e1f702c55ea9
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+81 | 
+82 |         <mat-slide-toggle #passwordInfoToggle [color]="passwordStrength.color">{{'SHOW_PASSWORD_ADVICE' | translate}}</mat-slide-toggle>
+83 |         <app-password-strength #passwordStrength [password]="pa**********ue"></app-password-strength>
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/change-password/change-password.component.ts 
+Secret SHA: 071425ca6bf80481cc97d124a6a4d6440baa15f7a872947baaa54e9748e042b3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+82 | }
+83 | 
+84 | function matchValidator (newPasswordControl: Ab***********ol) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/Services/two-factor-auth-service.spec.ts 
+Secret SHA: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+30 | 
+31 |       expect(req.request.method).toBe('POST')
+32 |       expect(req.request.body).toEqual({ tmpToken: '000000', totpToken: '1****6' })
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/Services/two-factor-auth-service.spec.ts 
+Secret SHA: 91b4d142823f7d20c5f08df69122de43f35f057a988d9619f6d3138485c9a203
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+30 | 
+31 |       expect(req.request.method).toBe('POST')
+32 |       expect(req.request.body).toEqual({ tmpToken: '0****0', totpToken: '123456' })
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/i18n/ja_JP.json 
+Secret SHA: 7a55e0ff6e2f98813c6f1824c3dda043e668167abcd57c282991c223fab1f501
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+19 | 	"Submit 10 or more customer feedbacks within 20 seconds.": "20秒以内に10以上の顧客フィードバックを送信してください。",
+20 | 	"After finding a CAPTCHA bypass, write a script that automates feedback submission. Or open many browser tabs and be really quick.": "CAPTCHAバイパスを見つけた後、フィードバックの送信を自動化するスクリプトを作成してください。または、多くのブラウザのタブを開いてから迅速に操作してください。",
+21 | 	"Change Bender's password into <i>slurmCl4ssic</i> without using SQL Injection or Forgot Password.": "SQLインジェクシ***********************************************i>に変更します。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/two-factor-auth-enter/two-factor-auth-enter.component.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+25 | 
+26 | interface TokenEnterFormFields {
+27 |   token: s****g
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/register/register.component.html 
+Secret SHA: cb168275d7ffd980970bba2f0dc9ecafa6a9244d983d0c2e9a49e1f702c55ea9
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+53 | 
+54 |         <mat-slide-toggle #passwordInfoToggle [color]="passwordStrength.color">{{'SHOW_PASSWORD_ADVICE' | translate}}</mat-slide-toggle>
+55 |         <app-password-strength #passwordStrength [password]="pa**********ue"></app-password-strength>
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/faucet/faucet.component.ts 
+Secret SHA: e6d26d99923399fc3719d6c3ad42cc78c13968a8f42f686221cf4c94b9147716
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+32 | 
+33 | const nftAddress = '0x41427790c94E7a592B17ad694eD9c06A02bb9C39'
+34 | const BeeTokenAddress = '0x3643******************************4d6E13'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/password-strength-info/password-strength-info.component.ts 
+Secret SHA: 02c6de106c8f8151b52068e0963312eb20b25dd9b6703723c738d75385e23108
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+18 | export class PasswordStrengthInfoComponent implements OnInit {
+19 |   @Input()
+20 |     passwordComponent: Pass*****************nent
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/i18n/zh_TW.json 
+Secret SHA: b43878df519ded204282979315e505166699221526234b3d4986c22db9c1445b
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+272 | 	"We are out of stock! Sorry for the inconvenience.": "我們已經沒有庫存了！抱歉帶來的不便。",
+273 | 	"Wrong answer to CAPTCHA. Please try again.": "CAPTCHA的回答錯誤。請再試一次。",
+274 | 	"Invalid email or password.": "無效*******碼。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/i18n/zh_CN.json 
+Secret SHA: 35b29421dabc830fa6c9e0e422349aad21a9b43aef70bf2307d05f798ebb9bfe
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+450 | 	"Either check the official documentation or inspect a notification UI element directly.": "要么查看官方文档，要么直接检查通知的UI元素。",
+451 | 	"Find a form which updates the username and then construct a malicious page in the online HTML editor. You probably need an older browser version for this.": "查找更新用户名的表单，然后在 HTML 在线编辑器中构建恶意页面。 您可能需要一个较旧的浏览器版本。",
+452 | 	"Register a user with an empty email and password.": "用空的电子***********。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/i18n/zh_CN.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+272 | 	"We are out of stock! Sorry for the inconvenience.": "已售罄! 带来的不便深表歉意。",
+273 | 	"Wrong answer to CAPTCHA. Please try again.": "验证码错误。请重试。",
+274 | 	"Invalid email or password.": "无效*****码。",
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/app.guard.spec.ts 
+Secret SHA: 7f75367e7881255134e1375e723d1dea8ad5f6a4fdb79d938df1f1754a830606
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+38 | 
+39 |   it('returns payload from decoding a valid JWT', inject([LoginGuard], (guard: LoginGuard) => {
+40 |     localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIs*******************************************************************************************************************Jf36POk6yJV_adQssw5c')
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deluxeApiSpec.ts 
+Secret SHA: bb436c83e29553e71fc1cb100259f13be34171b84dad187973dc755489da05c5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+147 |       body: {
+148 |         email: 'ciso@' + config.get<string>('application.domain'),
+149 |         password: 'mDLx?94T********************************************x7c!YbJb'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deluxeApiSpec.ts 
+Secret SHA: bb436c83e29553e71fc1cb100259f13be34171b84dad187973dc755489da05c5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+51 |       body: {
+52 |         email: 'ciso@' + config.get<string>('application.domain'),
+53 |         password: 'mDLx?94T********************************************x7c!YbJb'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deluxeApiSpec.ts 
+Secret SHA: a76b0383af2b8beacde14b25f66e344417de8c630eb34ed26ff32c13e6c8ddd3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+103 |     const { token } = await login({
+104 |       email: `bender@${config.get<string>('application.domain')}`,
+105 |       password: 'OhG******************or!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deluxeApiSpec.ts 
+Secret SHA: a76b0383af2b8beacde14b25f66e344417de8c630eb34ed26ff32c13e6c8ddd3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+33 |       body: {
+34 |         email: 'bender@' + config.get<string>('application.domain'),
+35 |         password: 'OhG******************or!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deliveryApiSpec.ts 
+Secret SHA: bb436c83e29553e71fc1cb100259f13be34171b84dad187973dc755489da05c5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+109 |         body: {
+110 |           email: 'ciso@' + config.get<string>('application.domain'),
+111 |           password: 'mDLx?94T********************************************x7c!YbJb'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/deliveryApiSpec.ts 
+Secret SHA: bb436c83e29553e71fc1cb100259f13be34171b84dad187973dc755489da05c5
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+50 |         body: {
+51 |           email: 'ciso@' + config.get<string>('application.domain'),
+52 |           password: 'mDLx?94T********************************************x7c!YbJb'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/2faSpec.ts 
+Secret SHA: 5fd9d70e19305242e31c1e31165562caf7d35a1fa32f20b81ff0229cfde2e636
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+193 |     const { token } = await login({
+194 |       email: `J12934@${config.get<string>('application.domain')}`,
+195 |       password: '0Y8r**************-*******&6lB'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/2faSpec.ts 
+Secret SHA: d366bcf60a99fac26e84ce403e3c3f339fab6040ca3cd1ee375b8c54777110b0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+362 |   it('POST should fail if the account has already set up 2fa', async () => {
+363 |     const email = `wurstbrot@${config.get<string>('application.domain')}`
+364 |     const password = 'EinBe*************************NKEN!'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/2faSpec.ts 
+Secret SHA: d366bcf60a99fac26e84ce403e3c3f339fab6040ca3cd1ee375b8c54777110b0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+167 |     const { token } = await login({
+168 |       email: `wurstbrot@${config.get<string>('application.domain')}`,
+169 |       password: 'EinBe*************************NKEN!',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/productReviewApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+129 |       body: {
+130 |         email: 'bjoern.kimminich@gmail.com',
+131 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/productReviewApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+109 |       body: {
+110 |         email: 'bjoern.kimminich@gmail.com',
+111 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/nft-unlock/nft-unlock.component.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+19 | })
+20 | export class NFTUnlockComponent {
+21 |   privateKey: s****g
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/login/login.component.html 
+Secret SHA: 39bfa886524c96fd6ac53a9717afcb18dac1930f99280244a56d7dd1ebfbbc14
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+40 |             <i class="fas fa-eye-slash" aria-label="Eye Slash"></i>
+41 |           </button>
+42 |           <mat-error *ngIf="passwordControl.invalid" translate>MAN************ORD</mat-error>
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/app/forgot-password/forgot-password.component.ts 
+Secret SHA: 071425ca6bf80481cc97d124a6a4d6440baa15f7a872947baaa54e9748e042b3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+125 | }
+126 | 
+127 | function matchValidator (passwordControl: Ab***********ol) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/codefixes/weakPasswordChallenge_4.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+2 |       password: {
+3 |         type: DataTypes.STRING,
+4 |         set (clearTextPassword: s****g) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/codefixes/weakPasswordChallenge_2.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+2 |       password: {
+3 |         type: DataTypes.STRING,
+4 |         set (clearTextPassword: s****g) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/data/static/codefixes/weakPasswordChallenge_1_correct.ts 
+Secret SHA: 473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+2 |       password: {
+3 |         type: DataTypes.STRING,
+4 |         set (clearTextPassword: s****g) {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/chatBotSpec.ts 
+Secret SHA: a2c96d518f1099a3b6afe29e443340f9f5fdf1289853fc034908444f2bcb8982
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+293 |       const { token } = await login({
+294 |         email: `chatbot-testuser@${config.get<string>('application.domain')}`,
+295 |         password: 'te********st'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/chatBotSpec.ts 
+Secret SHA: a2c96d518f1099a3b6afe29e443340f9f5fdf1289853fc034908444f2bcb8982
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+285 |         body: {
+286 |           email: `chatbot-testuser@${config.get<string>('application.domain')}`,
+287 |           password: 'te********st',
+
+⛔  Found issue of type: authentication-header (rule ID: c08234fb-8614-49d7-8937-0f4c7b84b4e9) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/chatBotSpec.ts 
+Secret SHA: 59b5a69022d52b2461463fc517702ab25fe3de2924cc0de6d5cc968c969fb7c0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+230 |         request: {
+231 |           headers: {
+232 |             Authorization: 'Bearer fa*****en',
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/chatBotSpec.ts 
+Secret SHA: 5fd9d70e19305242e31c1e31165562caf7d35a1fa32f20b81ff0229cfde2e636
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+75 |       const { token } = await login({
+76 |         email: `J12934@${config.get<string>('application.domain')}`,
+77 |         password: '0Y8r**************-*******&6lB'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/chatBotSpec.ts 
+Secret SHA: 5fd9d70e19305242e31c1e31165562caf7d35a1fa32f20b81ff0229cfde2e636
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+54 |       const { token } = await login({
+55 |         email: `J12934@${config.get<string>('application.domain')}`,
+56 |         password: '0Y8r**************-*******&6lB'
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/userApiSpec.ts 
+Secret SHA: 1676bd1c75bda462c41749835f9c65ca1fcf006c8dbaddfc4498f897a8cc068d
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+298 | 
+299 |   it('GET who-am-i request returns nothing on expired auth token', () => {
+300 |     return frisby.get(`${REST_URL}/user/whoami`, { headers: { Authorization: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidX******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************WcEley5nego-4iFOmXQvCBz5ISS3HdtM0saJnOe0agyVUen3huFp4F2UCth_y2ScjMn_4AgW66cz8NSFPRVpC8g' } })
+
+⛔  Found issue of type: authentication-header (rule ID: c08234fb-8614-49d7-8937-0f4c7b84b4e9) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/userApiSpec.ts 
+Secret SHA: 1925226d5ce79a5cad722b0b1221069214915a565ea22998e030a7e3a401d5f3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+280 | 
+281 |   it('GET who-am-i request returns nothing on invalid auth token', () => {
+282 |     return frisby.get(`${REST_URL}/user/whoami`, { headers: { Authorization: 'Bearer In************en' } })
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/userApiSpec.ts 
+Secret SHA: 07afada2d81267b59eea355307a3ee3f1be5132ce91123e64869cf4ffaf93615
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+252 |       body: {
+253 |         email: 'bjoern.kimminich@gmail.com',
+254 |         password: 'bW9jL**************************vamI='
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/test/api/userApiSpec.ts 
+Secret SHA: 9f214b49fafc432e116884a5244442203267f200e72c6ad3ad4dbfd7b0f089c3
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+198 |         body: {
+199 |           email: '<iframe src="javascript:alert(`xss`)">',
+200 |           password: 'do***********er'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/routes/changePassword.ts 
+Secret SHA: 2b6ed24662616f9091dfbf68d3da3505ffdcc1eb7a842d1425e1268351f58163
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+31 |           UserModel.findByPk(loggedInUser.data.id).then((user: UserModel | null) => {
+32 |             if (user != null) {
+33 |               user.update({ password: new*************ing }).then((user: UserModel) => {
+
+⛔  Found issue of type: google-oauth-id (rule ID: 75eb6bb1-f4fc-431b-9e02-c48bf212aa35) in file: /Users/julie.byrne/Repos/updated-juice-1/config/default.yml 
+Secret SHA: d11f59fba4e41d21504c385ba066c8f707fe6e51ad9cad4731b57298f1cdfecc
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+57 |     overlayMap: orangemap2k.jpg
+58 |   googleOauth:
+59 |     clientId: '1005568560***-*************************************************ontent.com'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/package.json 
+Secret SHA: 4c353d4cc799a56ece2315fe9a10dc269c4e42c9155d6ebe35e0585bcd576108
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+213 |     "@types/jest": "^26.0.24",
+214 |     "@types/js-yaml": "^3.12.10",
+215 |     "@types/jsonwebtoken": "^****9",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/package.json 
+Secret SHA: cd78534ed15ad46912b71339d1417d0d043d8309c2b94415f3ed1b9d1fdfaed0
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+153 |     "i18n": "^0.11.1",
+154 |     "js-yaml": "^3.14.0",
+155 |     "jsonwebtoken": "0***0",
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/verifySpec.ts 
+Secret SHA: f6528142fa71ddf571020f2fe4d0a3a4312650b49118ab1572375f07ccaa98bf
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+307 |         Payload: { "data": { "email": "rsa_lord@" }, "iat": 1508639612, "exp": 9999999999 }
+308 |          */
+309 |         req.headers = { authorization: 'Bearer eyJ0eXAiOiJKV1QiLC*****************************************************************************************************-******uwudonm2DKn2ec7Tg8' }
+
+⛔  Found issue of type: json-web-token (rule ID: a7359e06-b98b-4f11-9a4e-51198153450b) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/verifySpec.ts 
+Secret SHA: dd4bec39c4c57582312b97b0bd7ba45019499ac0c262a5e7cf055c5df9f40f6c
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+295 |         Payload: { "data": { "email": "rsa_lord@juice-sh.op" }, "iat": 1508639612, "exp": 9999999999 }
+296 |          */
+297 |         req.headers = { authorization: 'Bearer eyJ0eXAiOiJKV1QiLCJh***********************************************************************************************************************56F9YCTIecd4FHFuSEAg' }
+
+⛔  Found issue of type: authentication-header (rule ID: c08234fb-8614-49d7-8937-0f4c7b84b4e9) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/verifySpec.ts 
+Secret SHA: efc322106ad32a3e32b501b7151773a92aff2f4f4b3ae8f584166ec3da72c36d
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+64 |     it('is solved when an authenticated user passes someone elses ID when writing feedback', () => {
+65 |       req.body.UserId = 1
+66 |       req.headers = { authorization: 'Bearer to******45' }
+
+⛔  Found issue of type: authentication-header (rule ID: c08234fb-8614-49d7-8937-0f4c7b84b4e9) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/verifySpec.ts 
+Secret SHA: efc322106ad32a3e32b501b7151773a92aff2f4f4b3ae8f584166ec3da72c36d
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+55 |     it('is not solved when an authenticated user passes no ID when writing feedback', () => {
+56 |       req.body.UserId = undefined
+57 |       req.headers = { authorization: 'Bearer to******45' }
+
+⛔  Found issue of type: authentication-header (rule ID: c08234fb-8614-49d7-8937-0f4c7b84b4e9) in file: /Users/julie.byrne/Repos/updated-juice-1/test/server/verifySpec.ts 
+Secret SHA: efc322106ad32a3e32b501b7151773a92aff2f4f4b3ae8f584166ec3da72c36d
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+46 |     it('is not solved when an authenticated user passes his own ID when writing feedback', () => {
+47 |       req.body.UserId = 42
+48 |       req.headers = { authorization: 'Bearer to******45' }
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/lib/insecurity.ts 
+Secret SHA: 1f158544a5acc59dc7f765d0511ebf84c0a780f0b14614f1649434116c209770
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+32 | 
+33 | interface IAuthenticatedUsers {
+34 |   tokenMap: Re*********ng, ResponseWithUser>
+
+⛔  Found issue of type: private-key (rule ID: c5df2a01-cf90-4727-b9aa-2e02e405a230) in file: /Users/julie.byrne/Repos/updated-juice-1/lib/insecurity.ts 
+Secret SHA: 44d11263f0863b8b6d04f0e975560849e81b66bd1e2ab86948193adb8bcc0b50
+Scan ID: 0ffa18c7-3cba-4fbc-b93d-d37dbe3e8ec3  ⛔
+
+21 | 
+22 | export const publicKey = fs ? fs.readFileSync('encryptionkeys/jwt.pub', 'utf8') : 'placeholder-public-key'
+23 | const privateKey = '-----BEGIN RSA PRIVATE KEY-----\r\nMIICXAIBAAKBgQDNwqLEe9wgTXCbC7+RPdDbBbeqjdbs4kOPOIGzqLpXvJXlxxW8iMz0EaM4BKU*****+****************************************************************+************************************+***************+********+*************************************************************************************************+******************************************************************+***********************************************************+****************************************************************************************************************************+*********+******************+********+***+*****************+*****************************************************************************************************************+*4lD7uYBw00Ga/xt+7+UqFPlPVdz1yyr4q24Zxaw0LgmuEvgU5dycq8N7JxjTubX0MIRR+G9fmDBBl8=\r\n-----END RSA PRIVATE KEY-----'
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+149 |   "MANDATORY_SECURITY_QUESTION": "請選擇一個安全問題。",
+150 |   "MANDATORY_SECURITY_ANSWER": "請為您的安全問題提供答案。",
+151 |   "FORGOT_PASSWORD": "忘***？",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 4ef566502f45a57067510b893d72ae5395889757df3c17cb5a8d916283d24dd2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+94 |   "LABEL_CURRENT_PASSWORD": "現有密碼",
+95 |   "LABEL_NEW_PASSWORD": "新密碼",
+96 |   "LABEL_REPEAT_NEW_PASSWORD": "重*****碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+91 |   "TITLE_CHANGE_PASSWORD": "更改密碼",
+92 |   "MANDATORY_CURRENT_PASSWORD": "請輸入您現有密碼。",
+93 |   "MANDATORY_NEW_PASSWORD": "請輸*****碼。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+90 |   "DISCOUNT_APPLIED": "在結帳時，將使用您的 {{discount}}%的折扣",
+91 |   "TITLE_CHANGE_PASSWORD": "更改密碼",
+92 |   "MANDATORY_CURRENT_PASSWORD": "請輸*****碼。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 2b7485b9e3db53557d65afda2755e2fcc180f50e54eac4647014e566166e8cdb
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+23 |   "INVALID_EMAIL": "電子郵件地址無效。",
+24 |   "SECURITY_ANSWER": "Answer",
+25 |   "MANDATORY_PASSWORD_REPEAT": "請再******碼。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+25 |   "MANDATORY_PASSWORD_REPEAT": "請再次輸入你的密碼。",
+26 |   "INVALID_PASSWORD_LENGTH": "密碼必須是{{length}} 字符長。",
+27 |   "LABEL_PASSWORD_REPEAT": "重****碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_HK.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+6 |   "TITLE_LOGIN": "登入",
+7 |   "MANDATORY_EMAIL": "請提供電子郵件地址。",
+8 |   "MANDATORY_PASSWORD": "請****。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+284 |   "WRITE_MESSAGE_PLACEHOLDER": "メッセージをどうぞ。",
+285 |   "SHOW_PWD_TOOLTIP": "パスワードを表示",
+286 |   "HIDE_PWD_TOOLTIP": "パス*****表示",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: b43878df519ded204282979315e505166699221526234b3d4986c22db9c1445b
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+204 |   "ACCOUNT": "アカウント",
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "二段階認証の設定",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "現在*******確認",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 5849e60925832b3902aff48b5f0b27eba324a1af83a8b5b46782952768cf8e27
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+180 |   "BTN_SHOW_SOLVED": "解決済みを表示",
+181 |   "TITLE_TWO_FACTOR_AUTH_ENTER": "2FAアプリの6桁のトークンを入力してください",
+182 |   "LABEL_TWO_FACTOR_AUTH_TOKEN": "2*****ン",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 79898eb2f03edd4c9d65739d4f2542fa7f89ce3dac599b54afc1ad888604b343
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "二段階認証の設定",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "現在のパスワードを確認",
+207 |   "LABEL_INITIAL_2FA_TOKEN": "認証*********クン",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 79898eb2f03edd4c9d65739d4f2542fa7f89ce3dac599b54afc1ad888604b343
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+183 |   "CONFIRM_2FA_SETUP": "二段階認証の設定が正常に完了しました。",
+184 |   "CONFIRM_2FA_DISABLE": "二段階認証が無効になりました。",
+185 |   "INVALID_TWO_FACTOR_AUTH_TOKEN": "トー*********す。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 79898eb2f03edd4c9d65739d4f2542fa7f89ce3dac599b54afc1ad888604b343
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+149 |   "MANDATORY_SECURITY_QUESTION": "セキュリティ質問を指定してください",
+150 |   "MANDATORY_SECURITY_ANSWER": "セキュリティ質問への回答を入力してください",
+151 |   "FORGOT_PASSWORD": "パス*********か?",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+283 |   "IP_ADDRESS": "IP アドレス",
+284 |   "WRITE_MESSAGE_PLACEHOLDER": "メッセージをどうぞ。",
+285 |   "SHOW_PWD_TOOLTIP": "パ******示",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+150 |   "MANDATORY_SECURITY_ANSWER": "セキュリティ質問への回答を入力してください",
+151 |   "FORGOT_PASSWORD": "パスワードをお忘れですか?",
+152 |   "TITLE_FORGOT_PASSWORD": "パ******定",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 35b29421dabc830fa6c9e0e422349aad21a9b43aef70bf2307d05f798ebb9bfe
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+336 |   "ADDRESS_UPDATED": "{{city}} の住所が正常に更新されました。",
+337 |   "ADDRESS_ADDED": "{{city}} の住所があなたの住所として正常に追加されました。",
+338 |   "PASSWORD_SUCCESSFULLY_CHANGED": "パスワ***********した。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 35b29421dabc830fa6c9e0e422349aad21a9b43aef70bf2307d05f798ebb9bfe
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+91 |   "TITLE_CHANGE_PASSWORD": "パスワード変更",
+92 |   "MANDATORY_CURRENT_PASSWORD": "現在のパスワードを入力してください",
+93 |   "MANDATORY_NEW_PASSWORD": "新しい***********ださい",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 35b29421dabc830fa6c9e0e422349aad21a9b43aef70bf2307d05f798ebb9bfe
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+90 |   "DISCOUNT_APPLIED": "{{discount}}%のディスカウントがチェックアウト時に適用されます",
+91 |   "TITLE_CHANGE_PASSWORD": "パスワード変更",
+92 |   "MANDATORY_CURRENT_PASSWORD": "現在の***********ださい",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 4ef566502f45a57067510b893d72ae5395889757df3c17cb5a8d916283d24dd2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+161 |   "LABEL_ADD_REVIEW_FOR_PRODUCT": "商品にレビューを追加する",
+162 |   "LABEL_NO_REVIEWS": "レビューなし",
+163 |   "TITLE_TOKENSALE": "ト*****ル",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 4ef566502f45a57067510b893d72ae5395889757df3c17cb5a8d916283d24dd2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+89 |   "OFFICIAL_MERCHANDISE_STORES_CUSTOMIZED": "{{appname}} を支えるオープンソースプロジェクトのアパレル、マグカップ、ステッカーを提供する公式ストアです！",
+90 |   "DISCOUNT_APPLIED": "{{discount}}%のディスカウントがチェックアウト時に適用されます",
+91 |   "TITLE_CHANGE_PASSWORD": "パ*****更",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: c10e9e3b4c38b18e92453b9d19c1137fef0c119a3ca23318a857c22a9bb6e17d
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+26 |   "INVALID_PASSWORD_LENGTH": "パスワードは {{length}} 文字以上で入力してください",
+27 |   "LABEL_PASSWORD_REPEAT": "パスワード(確認用)",
+28 |   "PASSWORDS_NOT_MATCHING": "パス***********ん。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: c10e9e3b4c38b18e92453b9d19c1137fef0c119a3ca23318a857c22a9bb6e17d
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+23 |   "INVALID_EMAIL": "メールアドレスが正しくありません",
+24 |   "SECURITY_ANSWER": "回答",
+25 |   "MANDATORY_PASSWORD_REPEAT": "パス***********さい",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ja_JP.json 
+Secret SHA: 558767c133378cd2abc1d873c384556e259124d7ecb3a6b539d01121d5cda0da
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+9 |   "LABEL_EMAIL": "メールアドレス",
+10 |   "LABEL_PASSWORD": "パスワード",
+11 |   "SHOW_PASSWORD_ADVICE": "パス**********表示",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/hacking-instructor/challenges/passwordStrength.ts 
+Secret SHA: 24289ff57859db41dbc22494685d0ef984c5e80a478fd9a8b00a6b3154389aad
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+13 | import { type ChallengeInstruction } from '../'
+14 | 
+15 | export const PasswordStrengthInstruction: Cha**************ion = {
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: c8bffd4452150706700dddb0f9f0e1617d01a65295906aa27729076e2e376f12
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+336 |   "ADDRESS_UPDATED": "ที่อยู่ในเมือง {{city}} ได้ถูกแก้ไขสำเร็จแล้ว",
+337 |   "ADDRESS_ADDED": "ที่อยู่ในเมือง {{city}} ได้ถูกเพิ่มในที่อยู่ของคุณแล้ว",
+338 |   "PASSWORD_SUCCESSFULLY_CHANGED": "เปลี*****************แล้ว",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: 784b3aa4086128c4ca71325136b3ea0b855620cd5ebc9197a27bfaf1bdfd343c
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+204 |   "ACCOUNT": "บัญชี",
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "การตั้งค่า 2FA",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "ยืนย********************งคุณ",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: 2b7485b9e3db53557d65afda2755e2fcc180f50e54eac4647014e566166e8cdb
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+161 |   "LABEL_ADD_REVIEW_FOR_PRODUCT": "เพิ่มรีวิวสำหรับสินค้านี้",
+162 |   "LABEL_NO_REVIEWS": "ไม่มีรีวิว",
+163 |   "TITLE_TOKENSALE": "โค******ลด",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: b43878df519ded204282979315e505166699221526234b3d4986c22db9c1445b
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+150 |   "MANDATORY_SECURITY_ANSWER": "โปรดระบุคำตอบของคำถามเพื่อความปลอดภัย",
+151 |   "FORGOT_PASSWORD": "ลืมรหัสผ่าน?",
+152 |   "TITLE_FORGOT_PASSWORD": "ลื*******าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: d04e255fa4bdc4274ea74348e0a25f5ec82a0c42853dc470e1bbed5be141c857
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+284 |   "WRITE_MESSAGE_PLACEHOLDER": "คุณอยากบอกอะไรเราหรือไม่ ?",
+285 |   "SHOW_PWD_TOOLTIP": "แสดงรหัสผ่าน",
+286 |   "HIDE_PWD_TOOLTIP": "ซ่********าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: d04e255fa4bdc4274ea74348e0a25f5ec82a0c42853dc470e1bbed5be141c857
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+283 |   "IP_ADDRESS": "หมายเลขไอพี",
+284 |   "WRITE_MESSAGE_PLACEHOLDER": "คุณอยากบอกอะไรเราหรือไม่ ?",
+285 |   "SHOW_PWD_TOOLTIP": "แส********าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: d04e255fa4bdc4274ea74348e0a25f5ec82a0c42853dc470e1bbed5be141c857
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+149 |   "MANDATORY_SECURITY_QUESTION": "กรุณาตั้งคำถามเพื่อความปลอดภัย",
+150 |   "MANDATORY_SECURITY_ANSWER": "โปรดระบุคำตอบของคำถามเพื่อความปลอดภัย",
+151 |   "FORGOT_PASSWORD": "ลื********น?",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: 7cdcab21ef3b4f7fd44d61bf14810e14981b8dc956b8fc8375692a5722038020
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+91 |   "TITLE_CHANGE_PASSWORD": "เปลี่ยนรหัสผ่าน",
+92 |   "MANDATORY_CURRENT_PASSWORD": "โปรดระบุรหัสผ่านปัจจุบัน",
+93 |   "MANDATORY_NEW_PASSWORD": "โปร**************หม่",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: bd08c84505322186939c2652b908791530126e54e9739b1b26a80bff4307153c
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+90 |   "DISCOUNT_APPLIED": "ส่วนลด {{discount}}% จะใช้ได้เมื่อถึงขั้นตอนจ่ายเงิน",
+91 |   "TITLE_CHANGE_PASSWORD": "เปลี่ยนรหัสผ่าน",
+92 |   "MANDATORY_CURRENT_PASSWORD": "โปร******************บัน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: c10e9e3b4c38b18e92453b9d19c1137fef0c119a3ca23318a857c22a9bb6e17d
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+89 |   "OFFICIAL_MERCHANDISE_STORES_CUSTOMIZED": "Official stores for apparel, mugs and stickers of the open source project behind {{appname}}!",
+90 |   "DISCOUNT_APPLIED": "ส่วนลด {{discount}}% จะใช้ได้เมื่อถึงขั้นตอนจ่ายเงิน",
+91 |   "TITLE_CHANGE_PASSWORD": "เป***********าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: 35b29421dabc830fa6c9e0e422349aad21a9b43aef70bf2307d05f798ebb9bfe
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+26 |   "INVALID_PASSWORD_LENGTH": "รหัสผ่านต้องมีความยาวอย่างน้อย {{length}} ตัวอักษร",
+27 |   "LABEL_PASSWORD_REPEAT": "ยืนยันรหัสผ่าน",
+28 |   "PASSWORDS_NOT_MATCHING": "รหั***********กัน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: dfee9839454b474b2ebbb182ed067dfdb0a10d863393d8683190dedc04cdd8f9
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+94 |   "LABEL_CURRENT_PASSWORD": "รหัสผ่านปัจจุบัน",
+95 |   "LABEL_NEW_PASSWORD": "รหัสผ่านใหม่",
+96 |   "LABEL_REPEAT_NEW_PASSWORD": "ยืน************หม่",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: dfee9839454b474b2ebbb182ed067dfdb0a10d863393d8683190dedc04cdd8f9
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+23 |   "INVALID_EMAIL": "อีเมล์ไม่ถูกต้อง",
+24 |   "SECURITY_ANSWER": "คำตอบ",
+25 |   "MANDATORY_PASSWORD_REPEAT": "โปร************่าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/th_TH.json 
+Secret SHA: 8f9766922130d8114a4187f9f71fa334ff978c8b691738dc0a080ce0278b36b7
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+9 |   "LABEL_EMAIL": "อีเมล์",
+10 |   "LABEL_PASSWORD": "รหัสผ่าน",
+11 |   "SHOW_PASSWORD_ADVICE": "แสด*************่าน",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ru_RU.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Пожалуйста, введите пароль.",
+9 |   "LABEL_EMAIL": "Эл. адрес",
+10 |   "LABEL_PASSWORD": "П****ь",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ro_RO.json 
+Secret SHA: b35b11f4c5592c2d0211c1ba55cb628fc76f0e6732be30bcd6fb0d993f503bee
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Vă rugăm introduceți o parolă.",
+9 |   "LABEL_EMAIL": "E-mail",
+10 |   "LABEL_PASSWORD": "P****ă",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/si_LK.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Please provide a password.",
+9 |   "LABEL_EMAIL": "වි-තැපෑල",
+10 |   "LABEL_PASSWORD": "ම****ය",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/da_DK.json 
+Secret SHA: de0624e704020f1557fe038961850974e20dcb218e1bfb2c3cab9b51cf7090ab
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+9 |   "LABEL_EMAIL": "E-mail",
+10 |   "LABEL_PASSWORD": "Kodeord",
+11 |   "SHOW_PASSWORD_ADVICE": "VI***********ÅD",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/da_DK.json 
+Secret SHA: 0155ee0294c638d6465f4b6fa504f4445ff4c6fc0be4b449f3883e39edb9fa7a
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Angiv venligst et kodeord.",
+9 |   "LABEL_EMAIL": "E-mail",
+10 |   "LABEL_PASSWORD": "K*****d",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/ca_ES.json 
+Secret SHA: 80cf623fcfdf7477089ba7ee133ebd31d6de16a6a9d6043ee1455d1f58f744b7
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Introduïu una contrasenya.",
+9 |   "LABEL_EMAIL": "E-mail",
+10 |   "LABEL_PASSWORD": "Co*******ya",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 2b7485b9e3db53557d65afda2755e2fcc180f50e54eac4647014e566166e8cdb
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+336 |   "ADDRESS_UPDATED": "已完成位於{{city}}的地址更新",
+337 |   "ADDRESS_ADDED": "已新增位於{{city}}的地址到您的資料中",
+338 |   "PASSWORD_SUCCESSFULLY_CHANGED": "你的******功。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: cb0c024dfbb1f10108c2570d56b5271527182ac790283b4ab1f4ca8745050a20
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+207 |   "LABEL_INITIAL_2FA_TOKEN": "從authenticator送出的初始驗證碼",
+208 |   "INITIAL_CODE": "初始驗證碼",
+209 |   "INITIAL_TOKEN_TOOLTIP": "從aut*******************6個字元",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 8080f01fe3ed698a85db0d16c1604f19f41a6628f4e38c12c08cabb5e7a1ead2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "2FA設定",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "確認您現在的密碼",
+207 |   "LABEL_INITIAL_2FA_TOKEN": "從au****************驗證碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 26a76f75358482b11117d6c3da5a5454d0e14550a02cefeb63f555790558ac07
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+180 |   "BTN_SHOW_SOLVED": "顯示已解決的項目",
+181 |   "TITLE_TWO_FACTOR_AUTH_ENTER": "請輸入你的 2FA 應用程式中的6碼驗證碼",
+182 |   "LABEL_TWO_FACTOR_AUTH_TOKEN": "2****碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 4ef566502f45a57067510b893d72ae5395889757df3c17cb5a8d916283d24dd2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+149 |   "MANDATORY_SECURITY_QUESTION": "請選擇一個安全性問題",
+150 |   "MANDATORY_SECURITY_ANSWER": "請提供安全性問題的答案",
+151 |   "FORGOT_PASSWORD": "忘*****？",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+204 |   "ACCOUNT": "帳號",
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "2FA設定",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "確******碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+94 |   "LABEL_CURRENT_PASSWORD": "目前的密碼",
+95 |   "LABEL_NEW_PASSWORD": "新密碼",
+96 |   "LABEL_REPEAT_NEW_PASSWORD": "請******碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+92 |   "MANDATORY_CURRENT_PASSWORD": "請提供你現在的密碼.",
+93 |   "MANDATORY_NEW_PASSWORD": "請提供新的密碼.",
+94 |   "LABEL_CURRENT_PASSWORD": "目***碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+23 |   "INVALID_EMAIL": "電子郵件地址無效",
+24 |   "SECURITY_ANSWER": "答案",
+25 |   "MANDATORY_PASSWORD_REPEAT": "請再*****密碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+161 |   "LABEL_ADD_REVIEW_FOR_PRODUCT": "為此商品新增評論",
+162 |   "LABEL_NO_REVIEWS": "無評論",
+163 |   "TITLE_TOKENSALE": "虛****售",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+25 |   "MANDATORY_PASSWORD_REPEAT": "請再次輸入您的密碼",
+26 |   "INVALID_PASSWORD_LENGTH": "密碼必須至少為 {{length}} 個字元",
+27 |   "LABEL_PASSWORD_REPEAT": "重****碼",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_TW.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+9 |   "LABEL_EMAIL": "電子郵件",
+10 |   "LABEL_PASSWORD": "密碼",
+11 |   "SHOW_PASSWORD_ADVICE": "顯****議",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/bg_BG.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+8 |   "MANDATORY_PASSWORD": "Моля, въведете парола.",
+9 |   "LABEL_EMAIL": "И-мейл",
+10 |   "LABEL_PASSWORD": "П****а",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/no_NO.json 
+Secret SHA: 5404e95376d7e0abb3d675badc0742d4e6d75ce6443197f074f83b4be469abe8
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+180 |   "BTN_SHOW_SOLVED": "Vis løst",
+181 |   "TITLE_TWO_FACTOR_AUTH_ENTER": "Skriv inn det 6-sifrede tokenet fra 2FA-appen",
+182 |   "LABEL_TWO_FACTOR_AUTH_TOKEN": "2F*-***en",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 6ecf2c7fb56561175da5a153b3e89a18148269cfad16456d3cd3f78af5bb0668
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+207 |   "LABEL_INITIAL_2FA_TOKEN": "从你的验证中初始化令牌",
+208 |   "INITIAL_CODE": "初始化令牌",
+209 |   "INITIAL_TOKEN_TOOLTIP": "输入*********字。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: b43878df519ded204282979315e505166699221526234b3d4986c22db9c1445b
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "两步验证",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "确认当前密码",
+207 |   "LABEL_INITIAL_2FA_TOKEN": "从你*******令牌",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 4ef566502f45a57067510b893d72ae5395889757df3c17cb5a8d916283d24dd2
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+94 |   "LABEL_CURRENT_PASSWORD": "当前密码",
+95 |   "LABEL_NEW_PASSWORD": "新密码",
+96 |   "LABEL_REPEAT_NEW_PASSWORD": "重*****码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+336 |   "ADDRESS_UPDATED": "{{city}} 中的地址已成功更新。",
+337 |   "ADDRESS_ADDED": "{{city}} 的地址已被成功加入你的地址簿。",
+338 |   "PASSWORD_SUCCESSFULLY_CHANGED": "您******。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e079b5c8da7c98ad0b93984550aa9cbe921d34d1a3d7e25d1410d9c74f5dad83
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+91 |   "TITLE_CHANGE_PASSWORD": "更改密码",
+92 |   "MANDATORY_CURRENT_PASSWORD": "请输入您目前的密码",
+93 |   "MANDATORY_NEW_PASSWORD": "请******码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 3126b70f80dce5bafa2c5ae4736137cb6883a8be7f9ed9cf17c5787d329e7465
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+90 |   "DISCOUNT_APPLIED": "在结帐时，将应用您的 {{discount}}%的折扣",
+91 |   "TITLE_CHANGE_PASSWORD": "更改密码",
+92 |   "MANDATORY_CURRENT_PASSWORD": "请输*****密码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 2b7485b9e3db53557d65afda2755e2fcc180f50e54eac4647014e566166e8cdb
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+183 |   "CONFIRM_2FA_SETUP": "两步验证设置成功。",
+184 |   "CONFIRM_2FA_DISABLE": "两步验证已被停用。",
+185 |   "INVALID_TWO_FACTOR_AUTH_TOKEN": "该验******效的",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 2b7485b9e3db53557d65afda2755e2fcc180f50e54eac4647014e566166e8cdb
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+23 |   "INVALID_EMAIL": "电子邮件地址无效",
+24 |   "SECURITY_ANSWER": "答案",
+25 |   "MANDATORY_PASSWORD_REPEAT": "请再******码。",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+204 |   "ACCOUNT": "账户",
+205 |   "TITLE_TWO_FACTOR_AUTH_CONFIG": "两步验证",
+206 |   "LABEL_CONFIRM_CURRENT_PASSWORD": "确****码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+25 |   "MANDATORY_PASSWORD_REPEAT": "请再次输入你的密码。",
+26 |   "INVALID_PASSWORD_LENGTH": "密码至少{{length}} 个字符",
+27 |   "LABEL_PASSWORD_REPEAT": "重****码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: 2c0b4ee2a03c434e1856404d03d57b82c8ef500237be8ae118b1147a1051d5b6
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+9 |   "LABEL_EMAIL": "电子邮箱",
+10 |   "LABEL_PASSWORD": "密码",
+11 |   "SHOW_PASSWORD_ADVICE": "显****示",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+180 |   "BTN_SHOW_SOLVED": "显示已解决的问题",
+181 |   "TITLE_TWO_FACTOR_AUTH_ENTER": "输入两步验证应用中的6位验证码",
+182 |   "LABEL_TWO_FACTOR_AUTH_TOKEN": "两***码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+149 |   "MANDATORY_SECURITY_QUESTION": "请选择一个安全问题",
+150 |   "MANDATORY_SECURITY_ANSWER": "请为你的安全问题提供答案",
+151 |   "FORGOT_PASSWORD": "忘***？",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+26 |   "INVALID_PASSWORD_LENGTH": "密码至少{{length}} 个字符",
+27 |   "LABEL_PASSWORD_REPEAT": "重复输入密码",
+28 |   "PASSWORDS_NOT_MATCHING": "密***配",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/zh_CN.json 
+Secret SHA: e348d8d0564992652cc3e8e5ae7dbcbed9ecdea4db96c573d8b2087643ee2569
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+6 |   "TITLE_LOGIN": "登录",
+7 |   "MANDATORY_EMAIL": "请提供一个电子邮件地址",
+8 |   "MANDATORY_PASSWORD": "请***码",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/sv_SE.json 
+Secret SHA: 5404e95376d7e0abb3d675badc0742d4e6d75ce6443197f074f83b4be469abe8
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+180 |   "BTN_SHOW_SOLVED": "Visa lösta",
+181 |   "TITLE_TWO_FACTOR_AUTH_ENTER": "Ange den 6-siffriga koden från din 2FA app",
+182 |   "LABEL_TWO_FACTOR_AUTH_TOKEN": "2F*-***en",
+
+⛔  Found issue of type: generic-password (rule ID: 0072d641-cef7-405d-8916-7fae34354304) in file: /Users/julie.byrne/Repos/updated-juice-1/frontend/src/assets/i18n/de_CH.json 
+Secret SHA: d4827d1316dd28c5ea0ac611d782c751afa7794e25e90ad334874bdf36aa8515
+Scan ID: 434e88c6-f415-481f-b4b8-451b1db2d8bf  ⛔
+
+161 |   "LABEL_ADD_REVIEW_FOR_PRODUCT": "Füeg ä Produktrezension hinzu",
+162 |   "LABEL_NO_REVIEWS": "Ke Meinige",
+163 |   "TITLE_TOKENSALE": "To***-******uf",
+
