@@ -1,0 +1,19 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deploy to Prod US
+    runs-on: ubuntu-latest
+    environment:
+      name: prod-us
+    steps:
+      - name: Print deployment message
+        run: echo "deploying to prod-us"
+
+      - name: Mark deployment as successful
+        run: echo "Deployment to prod successful!"
