@@ -15,9 +15,9 @@ jobs:
       - name: Print deployment message
         run: echo "deploying to prod-us"
 
-     # - name: Mark deployment as successful
-     #   run: echo "Deployment to prod successful!"
+      - name: Mark deployment as successful
+        run: echo "Deployment to prod successful!"
 
       
-      - name: Mark deployment as unsuccessful
-        run: echo "Deployment to prod unsuccessful!"; exit 1
+     # - name: Mark deployment as unsuccessful
+     #   run: echo "Deployment to prod unsuccessful!"; exit 1
