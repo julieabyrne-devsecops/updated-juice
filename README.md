@@ -253,3 +253,6 @@ OWASP Juice Shop and any contributions are Copyright © by Bjoern Kimminich & th
 
 :warning: DO NOT PUT PASSWORDS IN TEXT FILES, e.g.:
 
+username: julie
+password: Hy78#ll1!2XdFt
+
